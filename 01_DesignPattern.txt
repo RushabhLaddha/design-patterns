@@ -1,0 +1,8 @@
+Design pattern is a generic repeatable solution for common software engineering problem. It is not a complete design that can be integrated in the code right away, but a description or model for problem solving.
+
+Types of Design Pattern:
+    1. Creational 
+    2. Structural
+    3. Behavorial
+
+1. Creational -> It deals with the creation of objects which tries to make code flexible and scalable. It does not provide the information about how concrete classes are created and instantiated. The only thing system knows is interfaces of objects that are declared by the abstract classes.
