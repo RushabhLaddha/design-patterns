@@ -11,3 +11,5 @@ Types of Design Pattern:
             1.a. Simple Factory : A Factory class that decides which concrete class to instantiate
             1.b. Factory method : Defines interface for creating objects, but allows subclasses to decide which class to instantiate
             1.c. Abstract Factory : Provides an interface for creating families of related objects without specifying there concrete classes
+    2. Singleton Pattern:
+        It ensures that class has only one instance throughout the lifetime of program. 
