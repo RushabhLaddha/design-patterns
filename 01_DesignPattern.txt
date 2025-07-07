@@ -13,3 +13,12 @@ Types of Design Pattern:
             1.c. Abstract Factory : Provides an interface for creating families of related objects without specifying there concrete classes
     2. Singleton Pattern:
         It ensures that class has only one instance throughout the lifetime of program. 
+    3. Builder Pattern: Used to Construct complex object step by step. It separates the construction of object from its representation allowing same construction process to create different representation
+        Issues before using Builder Pattern ->
+            a. Constructor Overloading : We would've to write multiple Constructors to include and exclude few of the parameters
+            b. Mutable : Anyone can call setters and modify the values
+            c. Scattered Validations : We would've to add checks to make sure all the parameters are getting set before calling execute method/function
+        Types of Builder Pattern:
+            a. Simple Builder : Creating one separate builder class to build the product class.
+            b. Director Builder : Appointing one Director to call most reusable build templates.
+            c. Step Builder : Incremental / enforcement compile time build of all Required fields. 
