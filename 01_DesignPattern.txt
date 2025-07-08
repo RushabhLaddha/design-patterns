@@ -21,4 +21,6 @@ Types of Design Pattern:
         Types of Builder Pattern:
             a. Simple Builder : Creating one separate builder class to build the product class.
             b. Director Builder : Appointing one Director to call most reusable build templates.
-            c. Step Builder : Incremental / enforcement compile time build of all Required fields. 
+            c. Step Builder : Incremental / enforcement compile time build of all Required fields.
+    4. Prototype Pattern:
+        If we want to create a clone of an object, we will use copy constructor instead of default / parameterized constructor as it can be time consuming. And we can use setters to tweak some of the variables as per the requirement of the cloned object. 
