@@ -7,7 +7,7 @@ Types of Design Pattern:
 
 1. Creational -> It deals with the creation of objects which tries to make code flexible and scalable. It does not provide the information about how concrete classes are created and instantiated. The only thing system knows is interfaces of objects that are declared by the abstract classes.
     1. Factory Pattern:
-        It hides the implementation of object creation from the cleint
+        It hides the implementation of object creation from the client
             1.a. Simple Factory : A Factory class that decides which concrete class to instantiate
             1.b. Factory method : Defines interface for creating objects, but allows subclasses to decide which class to instantiate
             1.c. Abstract Factory : Provides an interface for creating families of related objects without specifying there concrete classes

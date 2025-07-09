@@ -1,4 +1,5 @@
 // Use static member function which creates a local static variable of class instance making sure instance is created only once
+// Can be used only from C++11 and later
 
 #include<iostream>
 
