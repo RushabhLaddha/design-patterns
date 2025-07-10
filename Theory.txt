@@ -6,14 +6,14 @@ Types of Design Pattern:
     3. Behavorial
 
 1. Creational -> It deals with the creation of objects which tries to make code flexible and scalable. It does not provide the information about how concrete classes are created and instantiated. The only thing system knows is interfaces of objects that are declared by the abstract classes.
-    1. Factory Pattern:
+    1.1. Factory Pattern:
         It hides the implementation of object creation from the client
             1.a. Simple Factory : A Factory class that decides which concrete class to instantiate
             1.b. Factory method : Defines interface for creating objects, but allows subclasses to decide which class to instantiate
             1.c. Abstract Factory : Provides an interface for creating families of related objects without specifying there concrete classes
-    2. Singleton Pattern:
+    1.2. Singleton Pattern:
         It ensures that class has only one instance throughout the lifetime of program. 
-    3. Builder Pattern: Used to Construct complex object step by step. It separates the construction of object from its representation allowing same construction process to create different representation
+    1.3. Builder Pattern: Used to Construct complex object step by step. It separates the construction of object from its representation allowing same construction process to create different representation
         Issues before using Builder Pattern ->
             a. Constructor Overloading : We would've to write multiple Constructors to include and exclude few of the parameters
             b. Mutable : Anyone can call setters and modify the values
@@ -22,5 +22,10 @@ Types of Design Pattern:
             a. Simple Builder : Creating one separate builder class to build the product class.
             b. Director Builder : Appointing one Director to call most reusable build templates.
             c. Step Builder : Incremental / enforcement compile time build of all Required fields.
-    4. Prototype Pattern:
-        If we want to create a clone of an object, we will use copy constructor instead of default / parameterized constructor as it can be time consuming. And we can use setters to tweak some of the variables as per the requirement of the cloned object. 
+    1.4. Prototype Pattern: If we want to create a clone of an object, we will use copy constructor instead of default / parameterized constructor as it can be time consuming. And we can use setters to tweak some of the variables as per the requirement of the cloned object.
+
+2. Structural -> Structural Design Patterns are like blueprints that help you organize your code by showing how different classes / objects can work together smoothly. It simplifies the design by identifying a simple way tp realize relationships between classes and objects.
+    2.1. Adapter Pattern: Adapter converts the interface of the class into another interface that client expects. Adapter lets the classes work together that could't otherwise because of incompatible interface.
+    2.2 Bridge Pattern: Bridge decouples an abstractions from its implementation, so that both can vary independently.
+                        Abstraction : High level layer
+                        implementation : Low level layer 
