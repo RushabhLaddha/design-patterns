@@ -29,3 +29,6 @@ Types of Design Pattern:
     2.2 Bridge Pattern: Bridge decouples an abstractions from its implementation, so that both can vary independently.
                         Abstraction : High level layer
                         implementation : Low level layer 
+    2.3 Composite Pattern: It lets you treat individual objects and group of objects (composite) uniformly through common interface.
+                            Leaf Nodes : individual object
+                            Composite : Hold leaves or other composite
